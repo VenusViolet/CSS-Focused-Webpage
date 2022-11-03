@@ -11,7 +11,7 @@
     min-height: 100vh;
     justify-content: flex-start;
   }
-  IMG_3921.jpeg
+  
   .main-header {
     display: flex;
     justify-content: space-between;
@@ -40,44 +40,19 @@
     text-align: center;
     background: #13293d;
     color: #fff;}
-  
-  @media screen and (max-width: 992px) {
-    .card, {
-      width: 50%;
-    }
-  
-    header {
-      background: #772014;
-    }
-  }
-  
 
-  @media screen and (max-width: 768px) {
-    .card {
-      width: 50%;
-    }
-
-    header {
-      background: #8ac4ff;
-    }
-  }
 
   @media screen and (max-width: 992px) {
     .card {
       width: 50%;
     }
 
-    .sample-img {
+    header {
       background: #772014;
     }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .card {
-      width: 100%;
-    }
+
     .sample-img {
-      background: #8ac4ff;
+      background: #772014;
     }
   }
 
@@ -107,8 +82,14 @@
        display: flex;
        flex-wrap: wrap;
        background-color: grey;
-        
+       width: 100%;
+    }
+
+      .sample-img {
+        background: #8ac4ff;
+      }
        
+
       }
         img {
            width: 100% 
