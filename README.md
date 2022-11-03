@@ -15,7 +15,7 @@ To run this webpage you can access it through the URL links porvided within the 
 
 ## Usage
 This project can be used to get to know me! I have provided links to my resume, portfolio, and to my Linkedin. Here it is all about Venus Rodin!
-add screenshot
+![Uploading Screenshot 2022-11-03 at 1.53.15 PM.png…]()
 
 ## Credits
 Nico Westgard reviewed and helped with the coding process
