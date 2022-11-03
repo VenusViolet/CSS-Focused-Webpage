@@ -7,51 +7,117 @@
     margin: 0;
   }
   
-  header {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
     padding: 60px;
-    text-align: center;
     background: #13293d;
     color: #fff;
   }
-  
+
   .card {
+    flex: 5px;
+    padding: 3px;
+    text-align: center;
     border-style: solid;
     border-width: 1px;
-    padding: 10px;
-    float: left;
-    width: 25%;
   }
   
   .card header {
     padding: 20px;
+    background: #13293d;
+    color: #fff;
   }
   
-  .card p {
+  .card.camera {
+    flex: 20px;
+  }
+  
+  .sample-img { padding: 60px;
     text-align: center;
-  }
+    background: #13293d;
+    color: #fff;}
   
-  .card img {
-    width: 100%;
-  }
-  
-  /* Cards are split into two columns at 992px or smaller */
   @media screen and (max-width: 992px) {
-    .card {
+    .card, {
       width: 50%;
     }
-    /* Change the header color */
+  
     header {
       background: #772014;
     }
   }
   
-  /* Cards are stacked on top of each other at 768px or smaller */
+
   @media screen and (max-width: 768px) {
     .card {
-      width: 100%;
+      width: 50%;
     }
-    /* Change the header color */
+
     header {
       background: #8ac4ff;
     }
   }
+
+  @media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+
+    .sample-img {
+      background: #772014;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    .sample-img {
+      background: #8ac4ff;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+
+    aside {
+      order: 2;
+    }
+ 
+    header {
+      background: #772014;
+    }
+
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+
+    .card {
+       display: -webkit-flex;
+       -webkit-flex-wrap: wrap;
+       display: flex;
+       flex-wrap: wrap;
+       background-color: grey;
+        
+       
+      }
+        img {
+           width: 100% 
+        }
+    
+    div {
+      flex: 1;
+      padding: 10px;
+      margin: 10px;
+    }
