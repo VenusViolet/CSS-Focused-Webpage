@@ -5,12 +5,10 @@
   body {
     font-family: Arial;
     margin: 0;
-  }
-  
-  main {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
   }
   
   .main-header {
@@ -33,10 +31,6 @@
     padding: 20px;
     background: #13293d;
     color: #fff;
-  }
-  
-  .card.camera {
-    flex: 20px;
   }
   
   .sample-img { padding: 60px;
@@ -114,6 +108,7 @@
       }
         img {
            width: 100% 
+         
         }
     
     div {
@@ -121,3 +116,12 @@
       padding: 10px;
       margin: 10px;
     }
+
+    .button {
+        width: 250px;
+        margin: 0 .5%;
+        font-size: 200%;
+        color: #13293d;
+        background-color: #fff;
+        border: 3px solid #13293d;
+      }
