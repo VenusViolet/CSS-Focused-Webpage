@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
  
-  
+  /* Describes style and design of the body of webpage */
   body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -11,7 +11,7 @@
     min-height: 100vh;
     justify-content: flex-start;
   }
-  
+  /* Sets the main header*/
   .main-header {
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@
     background: #13293d;
     color: #fff;}
 
-
+/* Installs the width and background at the 992px size */
   @media screen and (max-width: 992px) {
     .card {
       width: 50%;
@@ -55,7 +55,7 @@
       background: #772014;
     }
   }
-
+/* Installs the width and background at the 768px size */
   @media screen and (max-width: 768px) {
     main,
     nav {
@@ -65,7 +65,7 @@
     aside {
       order: 2;
     }
- 
+ /* Created the background color for the header */
     header {
       background: #772014;
     }
@@ -75,7 +75,7 @@
       background-color: #bb8588;
       text-align: center;
     }
-
+/* Connects the class element and its styling */
     .card {
        display: -webkit-flex;
        -webkit-flex-wrap: wrap;
@@ -89,7 +89,7 @@
         background: #8ac4ff;
       }
        
-
+/* Makes the width of the image be 100% */
       }
         img {
            width: 100% 
@@ -101,7 +101,7 @@
       padding: 10px;
       margin: 10px;
     }
-
+/* Describese the placement styles for the images */
     .button {
         width: 250px;
         margin: 0 .5%;
