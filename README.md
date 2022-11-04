@@ -15,10 +15,10 @@ To run this webpage you can access it through the URL links porvided within the 
 
 ## Usage
 This project can be used to get to know me! I have provided links to my resume, portfolio, and to my Linkedin. Here it is all about Venus Rodin!
-![Uploading Screenshot 2022-11-03 at 1.53.15 PM.png…]()
+<img width="1440" alt="Screenshot 2022-11-03 at 1 47 28 PM" src="https://user-images.githubusercontent.com/115984242/199857275-df7cbab7-4358-4627-9c27-8dedb8c5234c.png">
 
 ## Credits
-Nico Westgard reviewed and helped with the coding process
+Kelly Merrick reviewed and helped with the coding process
 
 ## Licence
 MIT Licence
